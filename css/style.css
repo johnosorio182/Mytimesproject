@@ -30,10 +30,6 @@ header nav {
     padding-right: 40px;
 }
 
-div {
-    border: 1px solid black;
-    display: block;
-}
 
 .logo {
     display: flex;
@@ -60,6 +56,16 @@ a {
     color: black;
 }
 
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
 
 .first.column {
     width: 630px;
@@ -71,12 +77,30 @@ a {
 
 .third.column {
     width: 240px;
+    flex-direction: column;
+    text-align: center;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  margin-right: 32px;
+.third.column .bite {
+  display: block;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+
+.first-story {
+  display: block;
+}
+
+.More-stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
 }
 
 
