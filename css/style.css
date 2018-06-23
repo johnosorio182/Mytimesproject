@@ -12,6 +12,8 @@ header {
 
 }
 
+
+
 nav span {
     padding: 20px 10px;
     display: inline-block;
@@ -19,7 +21,10 @@ nav span {
 
 header nav {
     padding-right: 40px;
+}
 
+div {
+    border: 1px solid black;
 }
 
 .logo {
@@ -48,21 +53,29 @@ a {
 }
 
 
-first-column {
+.first.column {
     width: 630px;
 }
 
-second-column {
+.second.column {
     width: 300px;
 }
 
-third-column {
+.third.column {
     width: 240px;
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
 
 .first-story.image-content {
     display: flex;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+    font-size: 40px;
 }
 
 .Earth.image-content {
@@ -83,6 +96,15 @@ third-column {
 .cookie {
 
   }
+
+.image-content {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    
+}
+
 .story-narrative {
     font-family: Georgia;
     font-size: 17px;
